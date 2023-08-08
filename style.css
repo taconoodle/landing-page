@@ -6,6 +6,7 @@
 .top-section .container img {
     height: 200px;
     width: auto;
+    min-width: fit-content;
 }
 
 .info img {
@@ -15,17 +16,21 @@
 
 .top-section .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 36px;
 }
 
 .top-section .header .header-links {
     display: flex;
     gap: 16px;
+    margin-left: auto;
 }
 
 .top-section .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 136px;
+    flex-wrap: wrap;
 }
 
 .slogan {
@@ -61,6 +66,8 @@
 .persons {
     display: flex;
     gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .persons .info {
@@ -105,10 +112,17 @@
     background-color: #3882f6;
     display: flex;
     padding: 24px 100px;
-    gap: 156px;
+    gap: 100px;
     margin: 32px;
     border-radius: 25px;
     color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sign-up-section .header {
+    font-size: large;
+    font-weight: bold;
 }
 
 body {
