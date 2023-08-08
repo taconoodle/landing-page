@@ -1,0 +1,140 @@
+.logo {
+    width: auto;
+    height: 70px;
+}
+
+.top-section .container img {
+    height: 200px;
+    width: auto;
+}
+
+.info img {
+    height: 170px;
+    width: 250px;
+}
+
+.top-section .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-section .header .header-links {
+    display: flex;
+    gap: 16px;
+}
+
+.top-section .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slogan {
+    font-size:60px;
+    font-weight: bolder;
+}
+
+.desc {
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team .message {
+    font-size: larger;
+    font-weight: bolder;
+    padding: 32px;
+    padding-bottom: 40px;
+}
+
+.persons {
+    display: flex;
+    gap: 32px;
+}
+
+.persons .info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 250px;
+    text-align: center;
+    gap: 8px;
+}
+
+.top-section {
+    background-color: #1F2937;
+    color: white;
+    padding: 16px 128px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 64px 128px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .text {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.quote .author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.sign-up-section {
+    align-self: center;
+    background-color: #3882f6;
+    display: flex;
+    padding: 24px 100px;
+    gap: 156px;
+    margin: 32px;
+    border-radius: 25px;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    min-width: auto;
+}
+
+img {
+    border-radius: 5px;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    background-color:#3882f6;
+    border: ridge white;
+    color: white;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+}
